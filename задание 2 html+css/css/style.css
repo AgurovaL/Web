@@ -1,0 +1,145 @@
+body{
+	padding: 20px;
+	background-color: #cadae6;
+	font-family: Arial, sans-serif;
+	width : 100%;
+	height: 100%;
+	margin: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+/*--------------------------------------------------------------------*/
+header{
+	height: 70px;
+}
+header img{
+	height: 70px;
+	width: 200px;
+	border: none;
+	float:left;
+}
+.head_menu{
+	list-style: none;
+	float: right;
+}
+.head_menu li{
+	display: inline;
+	margin-right: 41px;
+}
+.head_menu a{
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.head_menu li.active a{
+	color:#DDA0DD; 
+}
+/*----------------------------------------------------------------------------*/
+.section1{
+	padding:20px 0px 20px 20px;
+}
+.main_menu{
+	list-style: none;
+	float: left;
+	padding:0;
+	margin:0;
+	text-align: left;
+	width: 180px;
+}
+.main_menu li{
+	display: block; 
+	border-bottom:1px solid #ADD8E6;
+	height: 30px;
+}
+.main_menu a{
+	color:black;
+	text-decoration: none;
+}
+.main_menu li:hover {
+	background-color:#ADD8E6;
+}
+
+.text_and_table{
+	display: table;
+}
+.text_and_table .text{
+	font: italic 110% serif;
+}
+.text_and_table table{
+	width : 98%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.text_and_table table td, th {
+    border: 1px solid #0360a3;
+    padding: 4px;
+ }
+
+.text_and_table table th {
+    background-color:#5ea1d1;
+ }
+
+.text_and_table .companies a{
+	color:#DDA0DD;
+	text-decoration: none;
+}
+
+.text_and_table ul.browsers li:nth-child(odd) {
+    color: darkgoldenrod;
+}
+
+.text_and_table ul.browsers li:nth-child(even) {
+    color: purple;
+}
+
+.text_and_table ul.browsers li:last-child {
+    color: #e24486;
+}
+
+.text_and_table ul.browsers2 li:nth-child(1) {
+    color: blue;
+}
+
+.text_and_table ul.browsers2 li:nth-child(2) {
+    color: navy;
+}
+
+.text_and_table ul.browsers2 li:nth-child(3) {
+    color: lime;
+}
+/*----------------------------------------------------------------------------*/
+.footer_menu{
+	list-style: none;
+	display: block;
+	float:left;
+	padding: 0;
+	margin: 0;
+}
+.footer_menu li{
+	display: inline-block;
+	margin-right: 1px;
+	padding-left: 3px;
+	border-left:2px solid black;
+}
+.footer_menu li:first-child
+{
+	border:0;
+}
+.footer_menu a{
+	color:black;
+	text-decoration: none;
+	font-weight: bold; 
+}
+.footer_menu li.active a{
+	color:#DDA0DD; 
+}
+
+
+footer p{
+	padding: 0;
+	margin: 0;
+	float:right;
+}
